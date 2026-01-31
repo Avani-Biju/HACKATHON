@@ -1,0 +1,26 @@
+{
+    "name": "graphql-middleware-optimizer",
+    "version": "1.0.0",
+    "description": "GraphQL middleware proxy that optimizes queries by reducing over-fetching",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node index.js"
+    },
+    "keywords": [
+        "graphql",
+        "middleware",
+        "optimization",
+        "proxy"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "graphql": "^16.12.0",
+        "node-fetch": "^3.3.2"
+    }
+}
