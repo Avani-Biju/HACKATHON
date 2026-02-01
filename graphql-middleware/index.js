@@ -21,7 +21,7 @@ process.on('unhandledRejection', (reason, promise) => {
 // Initialize Express app
 const app = express();
 const PORT = process.env.PORT || 5000;
-const GRAPHQL_BACKEND_URL = process.env.GRAPHQL_BACKEND_URL || 'http://localhost:4000/graphql';
+const GRAPHQL_BACKEND_URL = process.env.GRAPHQL_BACKEND_URL || 'https://greenql.onrender.com/graphql';
 
 // Feature 1 + 2: Automatic Learning & Per-Screen Profiles
 // Globals: Store patterns per SCREEN and per QUERY type
